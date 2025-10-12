@@ -1,0 +1,12 @@
+2025-10-12 18:26:33 | INFO | main | === Data Processing Start ===
+2025-10-12 18:26:33 | INFO | short_strangle.data_processor | Loading data from /home/leshleon/projects/quode_application/data/Options_data_2023.csv
+2025-10-12 18:26:36 | INFO | short_strangle.data_processor | Loaded 50000 rows
+2025-10-12 18:26:36 | INFO | short_strangle.data_processor | load_csv() took 3.666s
+2025-10-12 18:26:36 | INFO | main | Data loaded in: 3.667s
+2025-10-12 18:26:36 | INFO | short_strangle.data_processor | Starting preprocessing...
+2025-10-12 18:26:36 | INFO | short_strangle.data_processor | Parsing took: 0.317s
+2025-10-12 18:26:36 | INFO | main | Data parsed in: 3.984s
+2025-10-12 18:26:36 | INFO | short_strangle.data_processor | Starting processing...
+2025-10-12 18:26:37 | INFO | short_strangle.data_processor | Processing took: 0.01995762699880288s
+2025-10-12 18:26:37 | INFO | main | Data processed in: 0.020s
+2025-10-12 18:26:37 | INFO | short_strangle.data_processor | Trading only on the 1st week of the month.
