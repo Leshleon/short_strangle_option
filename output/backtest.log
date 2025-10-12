@@ -1,12 +1,19 @@
-2025-10-12 18:26:33 | INFO | main | === Data Processing Start ===
-2025-10-12 18:26:33 | INFO | short_strangle.data_processor | Loading data from /home/leshleon/projects/quode_application/data/Options_data_2023.csv
-2025-10-12 18:26:36 | INFO | short_strangle.data_processor | Loaded 50000 rows
-2025-10-12 18:26:36 | INFO | short_strangle.data_processor | load_csv() took 3.666s
-2025-10-12 18:26:36 | INFO | main | Data loaded in: 3.667s
-2025-10-12 18:26:36 | INFO | short_strangle.data_processor | Starting preprocessing...
-2025-10-12 18:26:36 | INFO | short_strangle.data_processor | Parsing took: 0.317s
-2025-10-12 18:26:36 | INFO | main | Data parsed in: 3.984s
-2025-10-12 18:26:36 | INFO | short_strangle.data_processor | Starting processing...
-2025-10-12 18:26:37 | INFO | short_strangle.data_processor | Processing took: 0.01995762699880288s
-2025-10-12 18:26:37 | INFO | main | Data processed in: 0.020s
-2025-10-12 18:26:37 | INFO | short_strangle.data_processor | Trading only on the 1st week of the month.
+2025-10-12 23:07:17 | INFO | main | === Data Processing Start ===
+2025-10-12 23:07:17 | INFO | short_strangle.data_processor | Loading data from /home/leshleon/projects/quode_application/data/Options_data_2023.csv
+2025-10-12 23:07:18 | INFO | short_strangle.data_processor | Loaded 10266681 rows
+2025-10-12 23:07:18 | INFO | short_strangle.data_processor | load_csv() took 1.700s
+2025-10-12 23:07:18 | INFO | main | Data loaded in: 1.701s
+2025-10-12 23:07:18 | INFO | short_strangle.data_processor | Starting preprocessing...
+2025-10-12 23:07:53 | INFO | short_strangle.data_processor | Parsing took: 33.127s
+2025-10-12 23:07:53 | INFO | main | Data parsed in: 34.834s
+2025-10-12 23:07:53 | INFO | short_strangle.data_processor | Starting processing...
+2025-10-12 23:07:54 | INFO | short_strangle.data_processor | Processing took: 0.8091793559942744s
+2025-10-12 23:07:54 | INFO | main | Data processed in: 0.810s
+2025-10-12 23:07:54 | INFO | short_strangle.data_processor | Trading only on the 1st week of the month.
+2025-10-12 23:07:54 | INFO | main | === Backtester Engine online ===
+2025-10-12 23:07:54 | INFO | short_strangle.backtester | Printing cash...
+2025-10-12 23:08:03 | INFO | main | Engine completed in: 7.666s
+2025-10-12 23:08:03 | INFO | short_strangle.stats | build_stats finished in 0.016s
+2025-10-12 23:08:03 | INFO | main | Stats completed in: 0.03s
+2025-10-12 23:08:03 | INFO | main | Total time lapsed: 43.340s
+2025-10-12 23:08:03 | INFO | main | === System Shut Down ===

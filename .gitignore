@@ -2,17 +2,23 @@
 __pycache__/
 *.pyc
 
-# Virtual environment
-.env/
-.env
+# Virtual environments (any name)
 .venv/
+venv/
+**/.venv/
+**/venv/
 
-# data files
+# Data files
 *.csv
+**/*.csv
 
+# Jupyter
+.ipynb_checkpoints/
 
-# IDE specific
+# IDEs
 .vscode/
 .idea/
 
-.ipynb_checkpoints/
+# Env files
+.env
+

@@ -8,7 +8,7 @@ log = logging.getLogger(__name__)
 def precompute_candidates(data):
     data["close_premium_diff"] = abs(data["Close"] - TARGET_PREMIUM)
     data["close_premium_diff_tiebreak"] = np.where(
-        data["Call/Put"] == "CE", data["strike"], data["strike"]
+        data["Call/Put"] == "CE", -data["strike"], data["strike"]
     )
     candidates = (
         data.sort_values(["minute", "Call/Put", "close_premium_diff", "close_premium_diff_tiebreak"])

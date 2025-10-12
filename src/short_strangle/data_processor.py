@@ -25,7 +25,7 @@ def load_csv():
         CSV_PATH,
         dtype = DTYPES, # type: ignore
         engine="pyarrow"
-        ).head(50000)
+        )
     
     log.info(f"Loaded {len(data)} rows")
     log.info(f"load_csv() took {perf_counter() - t0:.3f}s")
@@ -39,7 +39,7 @@ def fast_parsing(data):
     data["minute"] = pd.to_datetime(
         data["Date"].astype(str) + " " + data["Time"].astype(str),
         format="%Y-%m-%d %H:%M:%S",
-    ).dt.floor("T")
+    ).dt.floor("min")
 
     data["Date"] = pd.to_datetime(data["Date"]).dt.normalize()
     data["Time"] = pd.to_datetime(data["Time"], format="%H:%M:%S", errors="coerce").dt.time
