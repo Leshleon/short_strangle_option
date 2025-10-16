@@ -1,1 +1,1 @@
-# qode_application
+# Short Strangle Strategy
